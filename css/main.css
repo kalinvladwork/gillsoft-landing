@@ -1,0 +1,193 @@
+body {
+  color: #666666;
+  font-size: 16px;
+  line-height: 1.7; }
+
+.container {
+  margin-bottom: 20px; }
+
+.color-red {
+  color: #cd2e27;
+  border-color: #cd2e27; }
+  .color-red:hover {
+    color: #cd2e27; }
+
+.color-white {
+  color: #ffffff;
+  border-color: #ffffff; }
+  .color-white:hover {
+    color: #ffffff; }
+
+h2 {
+  font-size: 46px;
+  text-align: center;
+  margin: 90px 0 30px;
+  text-transform: uppercase;
+  color: #cd2e27; }
+
+p {
+  padding: 15px; }
+
+.hr {
+  margin: 40px auto; }
+
+.butt {
+  min-width: 240px;
+  display: inline-block;
+  padding: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 1px solid;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.2s; }
+  .butt:hover {
+    text-decoration: none;
+    border-radius: 10px; }
+
+.butt-white {
+  float: none;
+  margin-left: auto;
+  margin-right: auto; }
+
+.header {
+  background: #fefefe;
+  background: -moz-linear-gradient(top, #fefefe 0%, #dcdede 100%);
+  background: -webkit-linear-gradient(top, #fefefe 0%, #dcdede 100%);
+  background: linear-gradient(to bottom, #fefefe 0%, #dcdede 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fefefe', endColorstr='#dcdede',GradientType=0 );
+  padding: 10px 0 50px 0; }
+  .header .logo {
+    padding: 10px 0 0 0; }
+  .header nav button.navbar-toggle .icon-bar {
+    background: #cd2e27; }
+  .header nav #navbar {
+    margin-top: 40px; }
+    .header nav #navbar ul li a {
+      text-transform: uppercase;
+      font-size: 16px;
+      color: #333333; }
+  .header .local-wrap {
+    margin-top: 45px; }
+    .header .local-wrap select {
+      border: 1px solid #cd2e27;
+      border-radius: 0; }
+  .header h1 {
+    text-transform: uppercase;
+    font-size: 38px;
+    color: #737373;
+    line-height: 1.5;
+    margin-top: 110px; }
+    .header h1 span.bold.color-red {
+      font-weight: bold;
+      font-size: 50px; }
+  .header .header-img {
+    margin: 20px; }
+
+.prod-list ul {
+  list-style: none; }
+  .prod-list ul li {
+    font-size: 16px;
+    margin: 20px 0 30px; }
+    .prod-list ul li b {
+      font-size: 18px; }
+
+.investors-wr {
+  background: #eceeee;
+  padding-bottom: 50px; }
+
+.developer-wr {
+  background: url("../img/development-bg.jpg") no-repeat;
+  color: #ffffff;
+  padding-bottom: 50px; }
+  .developer-wr h2 {
+    color: #ffffff; }
+
+.command h4 {
+  margin: 30px 0 0; }
+
+.footer-wr {
+  height: 330px;
+  padding-top: 100px;
+  text-align: center;
+  color: #ffffff;
+  background: #cd2e27; }
+  .footer-wr .container {
+    margin-bottom: 0; }
+
+#myModal .modal-content label.label {
+  font-size: 14px;
+  color: #737373;
+  padding-left: 0; }
+#myModal .modal-content textarea {
+  height: 170px;
+  float: none; }
+
+@media (max-width: 768px) {
+  .header h1 {
+    font-size: 30px;
+    text-align: center; }
+    .header h1 span.bold.color-red {
+      font-size: 37px; }
+
+  h2 {
+    font-size: 30px; }
+
+  .developer-wr {
+    background: #737373;
+    background-image: none; }
+
+  .butt {
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    display: block; }
+
+  .header nav #navbar {
+    margin-top: 0; }
+  .header .local-wrap {
+    position: absolute;
+    margin-top: 115px; }
+
+  .command h4 {
+    text-align: left;
+    margin-left: 15px; }
+  .command p {
+    text-align: left; } }
+@media (max-width: 992px) and (min-width: 768px) {
+  .developer-wr h2 {
+    margin-top: 20px; } }
+body, html {
+  height: 100%; }
+
+.stub_wr {
+  height: 100vh;
+  background: #000000; }
+  .stub_wr .container {
+    height: 100vh;
+    margin-bottom: 0;
+    color: #ffffff; }
+    .stub_wr .container .stub_row {
+      display: flex;
+      align-items: center;
+      align-content: center;
+      justify-content: center;
+      height: 100%;
+      background: #0a0a0a; }
+      .stub_wr .container .stub_row .stub_space {
+        height: 20px; }
+      .stub_wr .container .stub_row .stub_p {
+        font-style: italic; }
+      .stub_wr .container .stub_row .stub_border {
+        border-left: 1px solid #9b9b9b;
+        padding: 10px 15px; }
+        .stub_wr .container .stub_row .stub_border .stub_left {
+          color: #9b9b9b;
+          font-size: 22px;
+          font-weight: 600; }
+        .stub_wr .container .stub_row .stub_border h3 {
+          margin-left: 15px;
+          color: #FBE64B; }
+
+/*# sourceMappingURL=main.css.map */
